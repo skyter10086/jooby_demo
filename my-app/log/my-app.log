@@ -1,0 +1,114 @@
+00:42:01.748 [Hotswap] INFO  com.mycompany.App - Fuck Me! Come on!
+00:42:02.459 [Hotswap] INFO  com.mycompany.App - [dev@netty]: Server started in 1195ms
+
+  GET /    [*/*]     [*/*]    (/anonymous)
+
+listening on:
+  http://localhost:8080/
+
+00:44:27.106 [HotswapScanner] INFO  com.mycompany.App - Stopped
+00:44:27.730 [Hotswap] INFO  com.mycompany.App - Fuck Me! Come on!
+00:44:28.089 [Hotswap] INFO  com.mycompany.App - [dev@netty]: Server started in 798ms
+
+  GET /    [*/*]     [*/*]    (/anonymous)
+
+listening on:
+  http://localhost:8080/
+
+00:46:45.404 [HotswapScanner] INFO  com.mycompany.App - Oh, put it in my annal!
+00:46:45.407 [HotswapScanner] INFO  com.mycompany.App - Stopped
+00:46:45.960 [Hotswap] INFO  com.mycompany.App - Fuck Me! Come on!
+00:46:46.325 [Hotswap] INFO  com.mycompany.App - [dev@netty]: Server started in 729ms
+
+  *   /**    [*/*]     [*/*]    (/anonymous)
+  GET /      [*/*]     [*/*]    (/anonymous)
+
+listening on:
+  http://localhost:8080/
+
+00:47:09.198 [Thread-9] INFO  com.mycompany.App - Oh, put it in my annal!
+00:47:09.204 [Thread-9] INFO  com.mycompany.App - Stopped
+00:47:20.432 [Hotswap] INFO  com.mycompany.App - Fuck Me! Come on!
+00:47:21.110 [Hotswap] INFO  com.mycompany.App - [dev@netty]: Server started in 1111ms
+
+  *   /**    [*/*]     [*/*]    (/anonymous)
+  GET /      [*/*]     [*/*]    (/anonymous)
+
+listening on:
+  http://localhost:8080/
+
+00:47:36.890 [netty task-4-13] ERROR org.jooby.Err - execution of: GET/index resulted in exception
+Route:
+      | Method | Path   | Source   | Name | Pattern | Consumes | Produces                                                 |
+      |--------|--------|----------|------|---------|----------|----------------------------------------------------------|
+      | GET    | /index | ~builtin | err  | /index  | [*/*]    | [text/html, application/xhtml+xml, application/xml, */*] |
+
+Stacktrace:
+org.jooby.Err: Not Found(404): /index
+	at org.jooby.internal.HttpHandlerImpl.lambda$routes$9(HttpHandlerImpl.java:630)
+	at org.jooby.internal.FallbackRoute.handle(FallbackRoute.java:303)
+	at org.jooby.internal.RouteChain.next(RouteChain.java:262)
+	at org.jooby.Route$Chain.next(Route.java:2475)
+	at org.jooby.Route$Handler.handle(Route.java:2073)
+	at org.jooby.internal.RouteImpl.handle(RouteImpl.java:280)
+	at org.jooby.internal.RouteChain.next(RouteChain.java:262)
+	at org.jooby.Route$Chain.next(Route.java:2475)
+	at org.jooby.internal.HttpHandlerImpl.handle(HttpHandlerImpl.java:496)
+	at org.jooby.internal.netty.NettyHandler.channelRead0(NettyHandler.java:271)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:38)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:353)
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+01:00:36.597 [HotswapScanner] INFO  com.mycompany.App - Oh, put it in my annal!
+01:00:36.601 [HotswapScanner] INFO  com.mycompany.App - Stopped
+01:00:37.242 [Hotswap] INFO  com.mycompany.App - Well, it is getting on!
+01:00:37.574 [Hotswap] INFO  com.mycompany.App - [dev@netty]: Server started in 789ms
+
+  *   /**    [*/*]     [*/*]    (/anonymous)
+  GET /      [*/*]     [*/*]    (/anonymous)
+
+listening on:
+  http://localhost:8080/
+
+01:09:07.072 [HotswapScanner] INFO  com.mycompany.App - See ya!
+01:09:07.088 [HotswapScanner] INFO  com.mycompany.App - Stopped
+01:09:07.702 [Hotswap] INFO  com.mycompany.App - Well, it is getting on!
+01:09:08.057 [Hotswap] INFO  com.mycompany.App - [dev@netty]: Server started in 759ms
+
+  *   /**       [*/*]     [*/*]    (/anonymous)
+  GET /         [*/*]     [*/*]    (/anonymous)
+  GET /index    [*/*]     [*/*]    (/anonymous)
+
+listening on:
+  http://localhost:8080/
+
+01:12:12.173 [HotswapScanner] INFO  com.mycompany.App - See ya!
+01:12:12.180 [HotswapScanner] INFO  com.mycompany.App - Stopped
+01:12:13.089 [Hotswap] INFO  com.mycompany.App - Well, it is getting on!
+01:12:13.484 [Hotswap] INFO  com.mycompany.App - [dev@netty]: Server started in 998ms
+
+  *   /**       [*/*]     [*/*]    (/anonymous)
+  GET /         [*/*]     [*/*]    (/anonymous)
+  GET /index    [*/*]     [*/*]    (/anonymous)
+
+listening on:
+  http://localhost:8080/
+
+01:13:26.077 [HotswapScanner] INFO  com.mycompany.App - See ya!
+01:13:26.079 [HotswapScanner] INFO  com.mycompany.App - Stopped
+01:13:26.710 [Hotswap] INFO  com.mycompany.App - Well, it is getting on!
+01:13:27.055 [Hotswap] INFO  com.mycompany.App - [dev@netty]: Server started in 778ms
+
+  *   /**       [*/*]     [*/*]    (/anonymous)
+  GET /         [*/*]     [*/*]    (/anonymous)
+  GET /index    [*/*]     [*/*]    (/anonymous)
+
+listening on:
+  http://localhost:8080/
+
+01:29:51.535 [Thread-13] INFO  com.mycompany.App - See ya!
+01:29:52.160 [Thread-13] INFO  com.mycompany.App - Stopped
